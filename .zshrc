@@ -117,16 +117,12 @@ if [ -z ${HISTFILE+x} ]; then
     HISTFILE=$HOME/.zsh_history
 fi
 
-if [ -z ${JULIA_EDITOR+x} ]; then
-    export JULIA_EDITOR="vim"
-fi
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # >>> conda initialize >>>
-# !!! Conda must be installed at ~/Conda
-__conda_dir="$HOME/Conda"
+# !!! Conda must be installed at ~/miniconda3
+__conda_dir="$HOME/miniconda3"
 __conda_setup="$($__conda_dir/bin/conda shell.zsh hook 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
