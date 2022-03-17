@@ -74,11 +74,8 @@ zstyle ':completion::complete:*' use-cache 1
 zstyle ":conda_zsh_completion:*" use-groups true
 
 ### Keymaps
-bindkey -v
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
-bindkey -M vicmd 'k' history-substring-search-up
-bindkey -M vicmd 'j' history-substring-search-down
 
 # aliases
 alias ...='../..'
