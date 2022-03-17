@@ -15,7 +15,7 @@ more about installation see the [documents of yadm](https://yadm.io/docs/install
 
 Once `yadm` is installed, clone this repo with:
 ```
-yadm clone git@github.com:wangl-cc/dotfiles.git  # replace the url as your own
+yadm clonehttps://github.com/AprilTu/dotfiles.git  # replace the url as your own
 ```
 
 <!-- vim:set ts=2 sw=2 tw=76: -->
